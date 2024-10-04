@@ -1,8 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
 
 :root{
-    --bg-color: #151515;
-    --primary-color:#A91D3A;
-    --secundary-color:#C73659;
-
+    --bg-color: #e0007b;
+    --primary-color: #000000;
+    --secundary-color: #691ff1;
+    --font:"Qwitcher Grypen", cursive;
 }
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+
+     background-color: var(--bg-color);
+     text-align: center;
+     color: var(--bg-color);
+    }
+
+    h1{
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+ }
+    nav a{
+        text-decoration: nome;
+        color: var(--bg-color);
+        margin: 0 2rem 1rem 0;
+    }
+    
